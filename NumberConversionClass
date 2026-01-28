@@ -1,0 +1,13 @@
+package ict.22.ClassNames;
+
+public class NumberConversionClass {
+
+    public static NumberConversionClass instance = new NumberConversionClass();
+
+    public void convertNumber(int number) {
+        System.out.println("Decimal: " + number);
+        System.out.println("Binary: " + Integer.toBinaryString(number));
+        System.out.println("Octal: " + Integer.toOctalString(number));
+        System.out.println("Hexadecimal: " + Integer.toHexString(number));
+    }
+}
