@@ -1,0 +1,19 @@
+package ict.22.ClassNames;
+
+public class MainClass {
+
+    public static void main(String[] args) {
+
+        // calling SumClass
+        SumClass.instance.calculateSum();
+
+        // calling GCD & LCM
+        DivisorMultipleClass.instance.findGCD_LCM(12, 18);
+
+        // number conversion
+        NumberConversionClass.instance.convertNumber(25);
+
+        // custom print
+        CustomPrintClass.instance.pr("Java do-while control statement");
+    }
+}
