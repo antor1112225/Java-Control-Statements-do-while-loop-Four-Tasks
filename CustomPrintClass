@@ -1,0 +1,10 @@
+package ict.22.ClassNames;
+
+public class CustomPrintClass {
+
+    public static CustomPrintClass instance = new CustomPrintClass();
+
+    public void pr(String msg) {
+        System.out.println("Custom Print: " + msg);
+    }
+}
